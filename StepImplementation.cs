@@ -14,6 +14,7 @@ namespace netcore.template
         [Step("Vowels in English language are <vowelString>.")]
         public void SetLanguageVowels(string vowelString)
         {
+			int unusedVar = 0;
             _vowels = new HashSet<char>();
             foreach (var c in vowelString)
             {
